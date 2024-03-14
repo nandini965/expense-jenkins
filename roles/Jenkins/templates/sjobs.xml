@@ -40,7 +40,7 @@
             <configVersion>2</configVersion>
             <userRemoteConfigs>
                 <hudson.plugins.git.UserRemoteConfig>
-                    <url>https://github.com/nandini965/learn-jenkins.git</url>
+                    <url>{{ git_repo_url }}</url>
                 </hudson.plugins.git.UserRemoteConfig>
             </userRemoteConfigs>
             <branches>
@@ -58,3 +58,4 @@
     <triggers/>
     <disabled>false</disabled>
 </flow-definition>
+
