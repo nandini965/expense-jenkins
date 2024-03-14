@@ -3,7 +3,7 @@
     config: "{{ lookup('file', 'templates/mjobs.xml') }}"
     name: sjobs.xml
     password: admin123
-    url: http://:8080
+    url: http://172.31.44.131:8080
     user: admin
 
 
@@ -17,5 +17,5 @@
     config: "{{ lookup('file', 'templates/mjobs.xml') }}"
     name: sjobs.xml
     password: admin123
-    url: http://:8080
+    url: http://172.31.44.131:8080
     user: admin
