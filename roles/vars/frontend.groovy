@@ -1,10 +1,9 @@
 def call () {
     pipeline {
         agent {
-            node {
-                label 'workstation'
+            node 'workstation'
             }
-        }
+
         options {
             ansicolor(xterm)
         }
