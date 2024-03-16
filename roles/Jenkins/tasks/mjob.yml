@@ -1,4 +1,4 @@
-- name: sjobs Create .xml file
+- name: create mjob.xml file
   community.general.jenkins_job:
     config: "{{ lookup('file', 'templates/mjob.xml') }}"
     name: mjob.xml
@@ -7,7 +7,7 @@
     user: admin
 
 
-- name: copy sjob.xml file
+- name: copy mjob.xml file
   ansible.builtin.template:
     src: mjob.xml
     dest: /tmp/test.xml
