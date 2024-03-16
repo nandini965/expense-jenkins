@@ -31,7 +31,13 @@ def call () {
                 }
             }
             stage('release application') {
+              //  when {
+                //    expression {
+                   //     env.TAG_NAME == ~".*"
+                   // }
+               // }
                 steps {
+                sh 'npm install'
 
                 }
             }
