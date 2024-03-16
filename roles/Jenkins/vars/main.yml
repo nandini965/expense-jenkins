@@ -1,4 +1,4 @@
- sjob:
+ sjobs:
  - { git_repo_url: https://github.com/nandini965/expense-terraform.git, job_name: expense-terraform }
  - { git_repo_url: https://github.com/nandini965/aws-ssm-parameters-expence.git, job_name: aws-ssm-parameters-expense }
 
